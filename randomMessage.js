@@ -2,4 +2,5 @@
 
 const Messages = ["Message One", "Message Two", "Message Three", "Message Four", "Message Five"];
 
+console.log(Messages[0]);
 
