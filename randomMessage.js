@@ -3,4 +3,5 @@
 const Messages = ["Message 1", "Message 2", "Message 3", "Message 4", "Message 5"];
 
 // This is where we will put code
-// When does the file start changing?
+const randomMessage = Messages[Math.floor(Math.random() * Messages.length)];
+console.log(randomMessage);
